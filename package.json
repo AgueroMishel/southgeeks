@@ -1,0 +1,12 @@
+{
+  "name": "southgeeks",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "cy:test": "npx cypress run --browser chrome --config-file config/local.config.js",
+    "cy:open": "npx cypress open --config-file config/local.config.js"
+  },
+  "dependencies": {
+    "cypress": "13.17.0"
+  }
+}
